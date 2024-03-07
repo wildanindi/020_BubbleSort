@@ -51,3 +51,22 @@ void bubblesortarray() {    //prosedur untuk mengurutkan array dengan metode bub
 
     } while (pass <= n - 1); // step 5
 }
+
+void display() {
+    cout << endl;
+    cout << "=====================================" << endl;    // output ke layar
+    cout << "Element Array yang telah tersusun" << endl;        // output ke layar
+    cout << "=====================================" << endl;    // output ke layar
+    cout << endl;
+    for (int j = 0; j < n; j++) {
+        cout << arr[j];
+        if (j < n - 1) {
+            cout << " --> ";
+        }
+    }
+    cout << endl;
+    cout << endl;
+    cout << "Jumlah pass = " << n - 1 << endl;
+    cout << endl;
+
+}
