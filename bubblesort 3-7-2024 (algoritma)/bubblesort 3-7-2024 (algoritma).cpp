@@ -70,3 +70,12 @@ void display() {
     cout << endl;
 
 }
+int main()
+{
+    input();    // call the input function to get user input
+    bubblesortarray();  //call the selection sort function
+    display();  // dislay the sorted array
+    system("pause");
+
+    return 0;
+}
