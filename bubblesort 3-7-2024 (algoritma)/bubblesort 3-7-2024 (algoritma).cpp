@@ -32,3 +32,5 @@ void input() {  // procedur untuk input
 void bubblesortarray() {    //prosedur untuk mengurutkan array dengan metode bubble sort
     int pass = 1;   // step 1
 
+    do {
+        for (int j = 0; j <= n - 1 - pass; j++) {   // step 2
