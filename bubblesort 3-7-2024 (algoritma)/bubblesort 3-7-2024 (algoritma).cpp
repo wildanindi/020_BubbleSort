@@ -29,3 +29,6 @@ void input() {  // procedur untuk input
 
 }
 
+void bubblesortarray() {    //prosedur untuk mengurutkan array dengan metode bubble sort
+    int pass = 1;   // step 1
+
